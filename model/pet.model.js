@@ -9,7 +9,6 @@ const schema = sequelize.define('pet', {
     },
     name: DataTypes.STRING,
     age: DataTypes.INTEGER,
-    speciesId: DataTypes.INTEGER,
     availableForAdoption: DataTypes.BOOLEAN
 }, { timestamps: false });
 
